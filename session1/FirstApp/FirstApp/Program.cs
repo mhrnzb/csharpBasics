@@ -10,6 +10,11 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("hello world..");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write("welcome to cSharp ");
+            Console.ResetColor();   
+            Console.ReadKey();
         }
     }
 }
