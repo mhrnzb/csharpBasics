@@ -10,6 +10,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {   // Data types
+
+            //INTEGER
             int a;
             a = 10;
 
@@ -18,11 +20,15 @@ namespace ConsoleApp1
             b = 20;
             c= a + b;
 
-
+            //STRING
             string name = "Mehrnaz ";
             string FamilyName = "Bagheri";
             string FullName = name + FamilyName;
             string age = "20";
+
+            //BOOLEAN
+            bool IsActive = true;   // use for conditions 
+            // DOUBLE --> float numbers
 
 
             Console.WriteLine(a);
