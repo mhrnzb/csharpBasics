@@ -28,7 +28,10 @@ namespace ConsoleApp1
 
             //BOOLEAN
             bool IsActive = true;   // use for conditions 
+
             // DOUBLE --> float numbers
+            double price = 2.500;
+
 
 
             Console.WriteLine(a);
