@@ -10,6 +10,22 @@ namespace if_example
     {
         static void Main(string[] args)
         {
+            // ==
+            //!=
+            //>
+            //<
+            //>=
+            //<=
+            string name = "";
+            Console.WriteLine("please enter name : ");
+            name = Console.ReadLine();
+            name = name.ToLower();
+            if (name == "mehrnaz")
+            {
+                Console.WriteLine("hello mehrnaz");
+                Console.WriteLine("welcome");
+            }
+            Console.ReadKey();
         }
     }
 }
