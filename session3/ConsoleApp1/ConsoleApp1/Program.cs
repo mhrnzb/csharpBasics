@@ -9,7 +9,12 @@ namespace ConsoleApp1
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {   // Data types
+            int a;
+            a = 10;
+            Console.WriteLine(a);
+            Console.ReadKey();
+
         }
     }
 }
