@@ -25,6 +25,10 @@ namespace if_example
                 Console.WriteLine("hello mehrnaz");
                 Console.WriteLine("welcome");
             }
+            else
+            {
+                Console.WriteLine("hello user");
+            }
             Console.ReadKey();
         }
     }
