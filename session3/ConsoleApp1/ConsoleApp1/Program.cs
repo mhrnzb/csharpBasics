@@ -33,6 +33,9 @@ namespace ConsoleApp1
             double price = 2.500;
 
 
+            Console.WriteLine(DateTime.Now);
+
+
 
             Console.WriteLine(a);
             Console.ReadKey();
