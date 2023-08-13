@@ -27,6 +27,9 @@ namespace Person_Example
                     Console.WriteLine("please enter name" + (i + 1));
                     Names[i] = Console.ReadLine();
                 }
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("*****************************************");
+                Console.ResetColor();
                 Console.ReadKey();
 
 
