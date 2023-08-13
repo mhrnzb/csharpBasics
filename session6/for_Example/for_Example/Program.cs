@@ -10,7 +10,7 @@ namespace for_Example
     {
         static void Main(string[] args)
         {   //infinity loop
-            for (int i = 0; i<20; )
+            for (int i = 0; i<20;i++ )
             {
                 Console.WriteLine(i);
             }
