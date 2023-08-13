@@ -18,9 +18,18 @@ namespace Class_Example
 
             Car car1 = new Car();
             car1.carName = "Pride";
-            car1.carSpeed = "100";
+            car1.carSpeed = 100;
             car1.carModel = "1400";
 
+
+            Car car2 = new Car();
+            car2.carName = "Peykan";
+            car2.carSpeed = 80;
+            car2.carModel = "1388";
+
+
+            Console.WriteLine(car1.carName +" " + car1.carSpeed + " " + car1.carModel );
+            Console.WriteLine(car2.carName + " " + car2.carSpeed + " " + car2.carModel);
 
 
 
