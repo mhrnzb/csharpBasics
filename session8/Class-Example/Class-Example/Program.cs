@@ -10,6 +10,11 @@ namespace Class_Example
     {
         static void Main(string[] args)
         {
+            int sum = Class1.Sum(4, 5);
+            Console.WriteLine(sum);
+            Console.WriteLine(Class1.FullName("Mehrnaz" , "Bagheri"));
+            Console.ReadKey();
+
         }
     }
 }
