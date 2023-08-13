@@ -15,6 +15,15 @@ namespace Class_Example
             Console.WriteLine(Class1.FullName("Mehrnaz" , "Bagheri"));
             Console.ReadKey();
 
+
+            Car car1 = new Car();
+            car1.carName = "Pride";
+            car1.carSpeed = "100";
+            car1.carModel = "1400";
+
+
+
+
         }
     }
 }
