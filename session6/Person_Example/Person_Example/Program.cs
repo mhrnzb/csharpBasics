@@ -22,6 +22,17 @@ namespace Person_Example
 
                 string[] Names = new string[number];
 
+                for (int i = 0; i < number; i++)
+                {
+                    Console.WriteLine("please enter name" + (i + 1));
+                    Names[i] = Console.ReadLine();
+                }
+                Console.ReadKey();
+
+
+
+
+
             }
             catch
             {
@@ -31,7 +42,7 @@ namespace Person_Example
 
 
 
-            Console.ReadKey();
+            
         }
     }
 }
