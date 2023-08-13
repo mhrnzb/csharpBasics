@@ -14,7 +14,7 @@ namespace Method_Example
             Console.WriteLine(Name.ToLower());
             
             //call method 
-
+            
             SayHello();
             Console.ReadKey();
 
@@ -24,6 +24,12 @@ namespace Method_Example
         static void SayHello()
         {
             Console.WriteLine("Hello user");
+        }
+
+
+        static int sum(int a , int b)
+        {
+            return a + b;
         }
         
     }
