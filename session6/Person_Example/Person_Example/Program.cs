@@ -10,15 +10,17 @@ namespace Person_Example
     {
         static void Main(string[] args)
         {
-            
+
 
 
 
             try
             {
-            Console.WriteLine("please enter person number : ");
+                Console.WriteLine("please enter person number : ");
 
-            int number = Convert.ToInt32(Console.ReadLine());
+                int number = Convert.ToInt32(Console.ReadLine());
+
+                string[] Names = new string[number];
 
             }
             catch
@@ -29,7 +31,7 @@ namespace Person_Example
 
 
 
-
+            Console.ReadKey();
         }
     }
 }
