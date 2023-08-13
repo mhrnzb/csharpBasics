@@ -39,23 +39,7 @@ namespace Person_Example
                 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
                 Console.ReadKey();
-
-
-
-
 
             }
             catch
