@@ -16,6 +16,8 @@ namespace Method_Example
             //call method 
             
             SayHello();
+            int sum = Sum(20, 10);
+            Console.WriteLine(sum);
             Console.ReadKey();
 
         }
@@ -27,7 +29,7 @@ namespace Method_Example
         }
 
 
-        static int sum(int a , int b)
+        static int Sum(int a , int b)
         {
             return a + b;
         }
