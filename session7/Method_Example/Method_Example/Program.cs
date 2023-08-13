@@ -18,6 +18,9 @@ namespace Method_Example
             SayHello();
             int sum = Sum(20, 10);
             Console.WriteLine(sum);
+            Console.WriteLine(FullName("Mehrnaz", "Bagheri"));
+
+
             Console.ReadKey();
 
         }
@@ -34,5 +37,9 @@ namespace Method_Example
             return a + b;
         }
         
+        static string FullName(string name , string family)
+        {
+            return name + " " + family;
+        }
     }
 }
