@@ -12,8 +12,19 @@ namespace Method_Example
         {
             string Name = "Mehrnaz";
             Console.WriteLine(Name.ToLower());
+            
+            //call method 
+
+            SayHello();
             Console.ReadKey();
 
         }
+
+
+        static void SayHello()
+        {
+            Console.WriteLine("Hello user");
+        }
+        
     }
 }
