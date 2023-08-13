@@ -30,6 +30,27 @@ namespace Person_Example
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("*****************************************");
                 Console.ResetColor();
+
+                foreach (string name in Names)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine(name);
+
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 Console.ReadKey();
 
 
