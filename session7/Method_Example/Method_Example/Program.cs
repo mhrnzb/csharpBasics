@@ -16,6 +16,7 @@ namespace Method_Example
             //call method 
             
             SayHello();
+            SayHello("Mehrnaz");
             int sum = Sum(20, 10);
             Console.WriteLine(sum);
             Console.WriteLine(FullName("Mehrnaz", "Bagheri"));
@@ -29,6 +30,11 @@ namespace Method_Example
         static void SayHello()
         {
             Console.WriteLine("Hello user");
+        }
+
+        static void SayHello(string name)
+        {
+            Console.WriteLine("Hello" + name);
         }
 
 
