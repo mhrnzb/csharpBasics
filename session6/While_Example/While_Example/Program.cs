@@ -10,6 +10,23 @@ namespace While_Example
     {
         static void Main(string[] args)
         {
+            //infinite loop
+
+            //while(true)
+            //{
+            //    Console.WriteLine("hello there!");
+            //}
+
+
+
+            int i = 0;
+            while (i < 20)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+
+            Console.ReadKey();
         }
     }
 }
