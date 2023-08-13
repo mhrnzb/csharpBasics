@@ -10,6 +10,10 @@ namespace Method_Example
     {
         static void Main(string[] args)
         {
+            string Name = "Mehrnaz";
+            Console.WriteLine(Name.ToLower());
+            Console.ReadKey();
+
         }
     }
 }
