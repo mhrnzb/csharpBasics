@@ -93,10 +93,6 @@ namespace condition_statement
 
 
 
-
-
-
-
             Console.ReadKey();
         }
     }
