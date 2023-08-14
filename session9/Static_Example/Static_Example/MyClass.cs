@@ -15,9 +15,6 @@ namespace Static_Example
         public static string website;
 
 
-    
-
-
     public int Sum(int a, int b)
     {
         return a + b;
@@ -25,11 +22,11 @@ namespace Static_Example
 
         public MyClass()
         {
-
+            Console.WriteLine("Public constractor")
         }
         static MyClass()
         {
-              
+            Console.WriteLine("Static constractor");
         }
 }
 }
