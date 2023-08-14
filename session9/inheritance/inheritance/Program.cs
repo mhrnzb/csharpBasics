@@ -15,6 +15,8 @@ namespace inheritance
             Console.WriteLine(parent.minus(10, 8));
 
             Console.ReadKey();
+
+            
         }
     }
 }

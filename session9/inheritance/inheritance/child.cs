@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace inheritance
 {
-    internal class child
+    internal class child : parent
     {
 
         public static int multiple(int a, int b)
