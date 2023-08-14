@@ -23,6 +23,17 @@ namespace Static_Example
             Console.WriteLine(class1.SiteURL);
 
             Console.ReadKey();
+
+
+
+            MyClass m1 = new MyClass();
+            MyClass m2 = new MyClass();
+            MyClass m3 = new MyClass();
+            MyClass m4 = new MyClass();
+            MyClass m5 = new MyClass();
+
+            Console.ReadKey();
+
         }
     }
 }

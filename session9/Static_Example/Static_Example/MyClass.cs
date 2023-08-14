@@ -22,7 +22,7 @@ namespace Static_Example
 
         public MyClass()
         {
-            Console.WriteLine("Public constractor")
+            Console.WriteLine("Public constractor");
         }
         static MyClass()
         {
