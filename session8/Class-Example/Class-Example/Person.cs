@@ -17,6 +17,11 @@ namespace Class_Example
 
         public Person(string name, string family, string website)
         {
+            // به سطح کلاس اشاره میکند نه به متد های سازندهthis 
+            this.Name = name;
+            this.Family = family;   
+            this.website = website; 
+            
 
         }
     }
