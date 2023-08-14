@@ -33,6 +33,10 @@ namespace Class_Example
 
 
 
+            Person p1 = new Person("Mehrnaz" , "bagheri" , "nothing");
+
+
+            Console.WriteLine($"name :{p1.Name} Family :{p1.Family} website : {p1.website}" );
         }
     }
 }
