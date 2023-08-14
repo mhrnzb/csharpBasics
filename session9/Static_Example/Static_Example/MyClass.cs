@@ -13,5 +13,16 @@ namespace Static_Example
         public string family;
 
         public static string website;
+
+
+    
+
+
+    public int Sum(int a, int b)
+    {
+        return a + b;
     }
+
 }
+}
+

@@ -17,6 +17,12 @@ namespace Static_Example
             MyClass.website = "GOOGLE.COM";
 
             int sum = mehrnaz.Sum(4 , 6 );
+
+            Console.WriteLine(class1.SiteName);
+
+            Console.WriteLine(class1.SiteURL);
+
+            Console.ReadKey();
         }
     }
 }
