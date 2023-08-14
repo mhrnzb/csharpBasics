@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FA3D7588-BD65-4EC9-8F79-CBFC02947CB3}</ProjectGuid>
+    <ProjectGuid>{31D5A0ED-8A01-475B-8761-0A71D39C7015}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>inheritance</RootNamespace>
-    <AssemblyName>inheritance</AssemblyName>
+    <RootNamespace>property_Example</RootNamespace>
+    <AssemblyName>property_Example</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="child.cs" />
-    <Compile Include="parent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
