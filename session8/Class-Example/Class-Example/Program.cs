@@ -37,6 +37,44 @@ namespace Class_Example
 
 
             Console.WriteLine($"name :{p1.Name} Family :{p1.Family} website : {p1.website}" );
+
+
+
+
+
+            Console.WriteLine("*******************************************");
+
+            Console.WriteLine("please enter personal number : ");
+            int number = Convert.ToInt32(Console.ReadLine());
+
+            Person[]  people = new Person[number];
+
+            for (int i =0; i < number; i++)
+            {
+                Console.WriteLine($"please enter person[{i+1}] name : ");
+                string name = Console.ReadLine();
+
+
+
+                Console.WriteLine($"please enter person[{i + 1}] family : ");
+                string family = Console.ReadLine();
+
+                Console.WriteLine($"please enter person[{i + 1}] website : ");
+                string website = Console.ReadLine();
+
+                Person p = new Person(name , family, website);
+                people[i] = p;
+            }
+
+            Console.ForegroundColor = ConsoleColor.Blue;
+            foreach(Person person in people)
+            {
+
+
+                Console.WriteLine($"name :{person.Name} Family :{person.Family} website : {person.website}");
+            }
+            Console.ResetColor();
+            Console.ReadKey();
         }
     }
 }
