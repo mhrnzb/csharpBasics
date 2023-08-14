@@ -8,5 +8,10 @@ namespace property_Example
 {
     internal class Car
     {
+
+        private int _speed;
+
+        public int Speed { get; set; }
+
     }
 }

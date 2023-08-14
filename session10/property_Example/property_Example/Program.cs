@@ -10,6 +10,8 @@ namespace property_Example
     {
         static void Main(string[] args)
         {
+            Car pride = new Car();
+
         }
     }
 }
