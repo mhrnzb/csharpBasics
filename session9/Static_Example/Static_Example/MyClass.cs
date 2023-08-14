@@ -23,6 +23,14 @@ namespace Static_Example
         return a + b;
     }
 
+        public MyClass()
+        {
+
+        }
+        static MyClass()
+        {
+              
+        }
 }
 }
 
