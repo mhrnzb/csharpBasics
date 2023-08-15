@@ -12,6 +12,23 @@ namespace property_Example
         {
             Car pride = new Car();
 
+            pride.Speed = 800;
+
+            // if your property deos'nt have set , you can not assign anything !!!
+            //pride.CarName = "peykan"; 
+
+
+
+
+            Console.WriteLine($"car name is {pride.CarName}");
+
+            Console.WriteLine($"speed is {pride.Speed}");
+           
+
+            Console.ReadKey();
+            
+
+
         }
     }
 }

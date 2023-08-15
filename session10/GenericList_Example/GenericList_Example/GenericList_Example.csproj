@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{31D5A0ED-8A01-475B-8761-0A71D39C7015}</ProjectGuid>
+    <ProjectGuid>{4BAFA9F2-52E2-4ADB-B5C0-73EFC48F043C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>property_Example</RootNamespace>
-    <AssemblyName>property_Example</AssemblyName>
+    <RootNamespace>GenericList_Example</RootNamespace>
+    <AssemblyName>GenericList_Example</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
